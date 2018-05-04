@@ -1,0 +1,32 @@
+footer
+{
+    width: 100%;
+    background-color: $color-secondary;
+    
+    ul
+    {
+        margin: 0;
+        padding: 0;
+    }
+    
+    a
+    {
+        color: $color-text-light;
+
+        &:hover
+        {
+            color: $color-text-weak;
+        }
+    }
+    
+    i
+    {
+        font-size: 2rem;
+        color: $color-text-light;
+    }
+    
+    .fa-facebook-f, .fa-instagram
+    {
+        margin-left: 30px;
+    }
+}

@@ -98,26 +98,6 @@ input {
 .right {
   float: right; }
 
-header .header-image {
-  width: 100%;
-  height: auto; }
-
-footer {
-  width: 100%;
-  background-color: #F48AAE; }
-  footer ul {
-    margin: 0;
-    padding: 0; }
-  footer a {
-    color: #FFFFFF; }
-    footer a:hover {
-      color: #D5D5D5; }
-  footer i {
-    font-size: 2rem;
-    color: #FFFFFF; }
-  footer .fa-facebook-f, footer .fa-instagram {
-    margin-left: 30px; }
-
 @media screen and (min-width: 320px) {
   footer .column {
     text-align: center; } }
@@ -449,6 +429,26 @@ nav {
       background-color: #5FB962;
       border-color: #5FB962;
       color: #FFFFFF; }
+
+footer {
+  width: 100%;
+  background-color: #F48AAE; }
+  footer ul {
+    margin: 0;
+    padding: 0; }
+  footer a {
+    color: #FFFFFF; }
+    footer a:hover {
+      color: #D5D5D5; }
+  footer i {
+    font-size: 2rem;
+    color: #FFFFFF; }
+  footer .fa-facebook-f, footer .fa-instagram {
+    margin-left: 30px; }
+
+header .header-image {
+  width: 100%;
+  height: auto; }
 
 .jumbotron {
   background-color: #F5F5F5;
