@@ -1,14 +1,24 @@
+//Dropdown in Documentation Sidenav
+$(document).ready(function()
+{
+    $(".dropdown-btn").click(function()
+    {
+        $(".dropdown-container").toggle();
+        $(this).toggleClass("active");
+    });
+});
+
 //jQuery to Open and Close Sidenav
 $(document).ready(function()
 {
-    $(".show-sidenav").click(function()
+    $(".show-mobilenav").click(function()
     {
-        $(".sidenav-container").show();
+        $(".mobilenav-container").show();
     });
     
-    $(".hide-sidenav").click(function()
+    $(".hide-mobilenav").click(function()
     {
-        $(".sidenav-container").hide();
+        $(".mobilenav-container").hide();
     });
 });
 

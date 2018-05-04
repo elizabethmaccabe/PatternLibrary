@@ -202,33 +202,33 @@ nav {
 
   .sidenav-container {
     display: none; } }
-.sidenav-container {
+.mobilenav-container {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
   background-color: #FFFFFF; }
-  .sidenav-container .close-menu {
+  .mobilenav-container .close-menu {
     position: absolute;
     top: 20px;
     right: 20px; }
-    .sidenav-container .close-menu i {
+    .mobilenav-container .close-menu i {
       color: #64CEC3; }
-      .sidenav-container .close-menu i:hover {
+      .mobilenav-container .close-menu i:hover {
         color: #37aea2; }
-  .sidenav-container ul {
+  .mobilenav-container ul {
     margin-top: 55px;
     font-size: 1.5rem;
     font-weight: 500;
     padding-left: 0px; }
-    .sidenav-container ul li {
+    .mobilenav-container ul li {
       margin-left: 0;
       padding: 20px 0px 20px 50px;
       cursor: pointer; }
-      .sidenav-container ul li:hover {
+      .mobilenav-container ul li:hover {
         background-color: #F5F5F5; }
-        .sidenav-container ul li:hover a {
+        .mobilenav-container ul li:hover a {
           color: #64CEC3; }
 
 .btn {
@@ -494,5 +494,55 @@ header .header-image {
   .modal-container .modal {
     width: 60%;
     padding: 20px 40px; } }
+.wrapper header .fixed-sidenav {
+  position: fixed;
+  height: 100%;
+  width: 300px;
+  border-right: 1px solid #D5D5D5;
+  background-color: #FFFFFF; }
+  .wrapper header .fixed-sidenav .column {
+    padding: 0;
+    margin: 0; }
+  .wrapper header .fixed-sidenav .logo {
+    color: #64CEC3;
+    padding: 55px 10px;
+    font-size: 30px;
+    display: list-item;
+    list-style: none;
+    font-weight: 500; }
+    .wrapper header .fixed-sidenav .logo:hover {
+      color: #37aea2; }
+  .wrapper header .fixed-sidenav .sidenav-item {
+    display: list-item;
+    list-style: none;
+    padding: 15px 0px 15px 30px;
+    color: #333333;
+    font-weight: 500; }
+    .wrapper header .fixed-sidenav .sidenav-item:hover {
+      color: #F48AAE; }
+  .wrapper header .fixed-sidenav .dropdown-container {
+    display: none; }
+    .wrapper header .fixed-sidenav .dropdown-container .dropdown-item {
+      display: list-item;
+      list-style: none;
+      padding: 15px 0px 15px 30px;
+      color: #333333; }
+      .wrapper header .fixed-sidenav .dropdown-container .dropdown-item:hover {
+        background-color: #F5F5F5; }
+  .wrapper header .fixed-sidenav .active {
+    background-color: #F5F5F5; }
+  .wrapper header .fixed-sidenav .active-dropdown-item {
+    background-color: #64CEC3;
+    color: #FFFFFF !important; }
+.wrapper main {
+  padding-left: 350px;
+  width: 97%; }
+  .wrapper main .section {
+    border-bottom: 1px solid #D5D5D5; }
+  .wrapper main h1, .wrapper main h2, .wrapper main h3, .wrapper main h4, .wrapper main h5, .wrapper main h6, .wrapper main p, .wrapper main a {
+    font-weight: 400; }
+  .wrapper main .title {
+    color: #F48AAE;
+    font-size: 55px; }
 
 /*# sourceMappingURL=main.css.map */
