@@ -1,0 +1,51 @@
+.sidenav-container
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: $color-background;
+    
+    .close-menu
+    {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        
+        i
+        {
+            color: $color-primary;
+            
+            &:hover
+            {
+                color: $color-primary-dark;
+            }
+        }
+    }
+    
+    ul
+    {
+        margin-top: 55px;
+        font-size: 1.5rem;
+        font-weight: $weight-medium;
+        padding-left: 0px;
+        
+        li
+        {
+            margin-left: 0;
+            padding: 20px 0px 20px 50px;
+            cursor: pointer;
+            
+            &:hover
+            {
+                background-color: $color-lightest-grey;
+                
+                a
+                {
+                    color: $color-primary;
+                }
+            }
+        }
+    }
+}

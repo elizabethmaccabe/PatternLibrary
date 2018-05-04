@@ -1,0 +1,30 @@
+main
+{
+    flex: 1;
+}
+
+.container
+{
+    max-width: 70%;
+    margin: 0 auto;
+}
+
+.column
+{
+    padding: 1rem;
+    margin: 8px;
+}
+
+// All columns 100% width on devices under 641px
+@media only screen and (min-width: 641px)
+{
+    .row
+    {
+      display: flex;
+    }
+    
+    .column
+    {
+      flex: 1;
+    }
+}
