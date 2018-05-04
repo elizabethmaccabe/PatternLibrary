@@ -1,0 +1,49 @@
+//Colours
+$color-turquoise: #64CEC3;
+$color-pink: #F48AAE;
+$color-lightest-grey: #F5F5F5;
+$color-light-grey: #D5D5D5;
+$color-grey: #9e9e9e;
+$color-dark-grey: #333333;
+$color-white: #FFFFFF;
+$color-black: #000000;
+$color-red: #F5493D;
+$color-green: #5FB962;
+
+//Primary Colors
+$color-primary: $color-turquoise;
+$color-primary-light: lighten($color-primary, 15%);
+$color-primary-dark: darken($color-primary, 15%);
+
+//Secondary Colors
+$color-secondary: $color-pink;
+$color-secondary-light: lighten($color-secondary, 15%);
+$color-secondary-dark: darken($color-secondary, 15%);
+
+//Error & Success Colors
+$color-error: $color-red;
+$color-error-light: lighten($color-error, 15%);
+$color-error-dark: darken($color-error, 15%);
+$color-success: $color-green;
+$color-success-light: lighten($color-success, 15%);
+$color-success-dark: darken($color-success, 15%);
+
+//Global Colors
+$color-background: $color-white;
+$color-transparent: transparent;
+$color-shadow: rgba($color-black, .225);
+$color-border: $color-light-grey;
+
+//Typography Colors
+$color-text-light: $color-white;
+$color-text-weak: $color-light-grey;
+$color-text-dark: $color-dark-grey;
+$color-header: $color-primary-dark;
+
+//Link Colors
+$color-link: $color-primary;
+$color-link-visited: $color-primary-dark;
+$color-link-hover: $color-secondary;
+
+$weight-regular: 400;
+$weight-medium: 500;
