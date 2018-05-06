@@ -618,6 +618,9 @@ header .header-image {
     padding-bottom: 0px;
     margin-top: 0px;
     margin-bottom: 0px; }
+  .documentation-wrapper main .example-column {
+    background-color: #FFA31A;
+    text-align: center; }
   .documentation-wrapper main .heading {
     color: #4DC3FF;
     font-size: 55px; }
@@ -646,5 +649,7 @@ header .header-image {
     line-height: 30px; }
   .documentation-wrapper main input[type="submit"], .documentation-wrapper main input[type="reset"] {
     margin-right: 0px; }
+  .documentation-wrapper main footer {
+    margin-bottom: 30px; }
 
 /*# sourceMappingURL=main.css.map */
