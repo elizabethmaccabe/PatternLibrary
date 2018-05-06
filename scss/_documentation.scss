@@ -1,0 +1,198 @@
+#is-dropdown-page
+{
+    .dropdown-container
+    {
+        display: block;
+    }
+}
+
+.documentation-wrapper
+{
+    header
+    {
+        .fixed-sidenav
+        {
+            position: fixed;
+            height: 100%;
+            width: 300px;
+            border-right: 1px solid $color-light-grey;
+            background-color: $color-background;
+
+            .column
+            {
+                padding: 0;
+                margin: 0;
+            }
+
+            .logo
+            {
+
+                color: $color-primary;
+                padding: 55px 10px;
+                font-size: 30px;
+                display: list-item;
+                list-style: none;
+                font-weight: $weight-medium;
+
+                &:hover
+                {
+                    color: $color-primary-dark;
+                }
+            }
+
+            .sidenav-item
+            {
+                display: list-item;
+                list-style: none;
+                padding: 15px 0px 15px 30px;
+                color: $color-text-darkest;
+                font-weight: $weight-medium;
+
+                &:hover
+                {
+                    color: $color-secondary;
+                }
+            }
+            
+            // Sidenav Dropdown Styles //
+            .dropdown-container
+            {
+                display: none;
+
+                .dropdown-item
+                {
+                    display: list-item;
+                    list-style: none;
+                    padding: 15px 0px 15px 30px;
+                    color: $color-text-darkest;
+
+                    &:hover
+                    {
+                        background-color: $color-lightest-grey;
+                    }
+                }
+            }
+            // [end] //
+
+            // Active Links //
+            .active
+            {
+                background-color: $color-lightest-grey;
+                color: $color-secondary;
+                
+                &:hover
+                {
+                    color: $color-primary;
+                }
+            }
+            
+            .active-dropdown-item
+            {
+                background-color: $color-primary;
+                color: $color-text-light !important;
+                
+                &:hover
+                {
+                    color: $color-text-darkest !important;
+                }
+            }
+            // [end] //
+        }
+    }
+
+    main
+    {
+        padding-left: 400px;
+        width: 90%;
+        
+        // Basic Styles //
+        h1, h2, h3, h4, h5, h6, p, a
+        {
+            font-weight: $weight-regular;
+        }
+        
+        p
+        {
+            text-align: justify;
+            line-height: 25px;
+        }
+        
+        .section
+        {
+            border-bottom: 1px solid $color-light-grey;
+            
+            &:last-of-type
+            {
+                margin-bottom: 20px;
+                border-color: transparent;
+            }
+        }
+        
+        .column-title
+        {
+            padding-top: 0px;
+            padding-bottom: 0px;
+            margin-top: 0px;
+            margin-bottom: 0px;
+        }
+        // [end] //
+        
+        // Headings and Titles //
+        .heading
+        {
+            color: $color-primary;
+            font-size: 55px;
+        }
+        
+        .tagline
+        {
+            color: $color-text-dark;
+        }
+        
+        .title
+        {
+            color: $color-secondary;
+            font-size: 35px;
+        }
+        
+        .subtitle
+        {
+            padding-top: 0px;
+            margin-top: 0px;
+        }
+        
+        // Code Snippets //
+        pre
+        {
+            overflow: auto;
+            background-color: $color-lightest-grey;
+        }
+        
+        .code-block
+        {
+            display: inline-block;
+            padding: 20px;
+            width: 100%;
+            line-height: 25px;
+            max-width: 800px;
+        }
+
+        .code-inline
+        {
+            padding: 3px 5px;
+            background-color: $color-lightest-grey;
+        }
+        // [end] //
+        
+        li
+        {
+            list-style: circle;
+            line-height: 30px;
+        }
+        
+        input[type="submit"], input[type="reset"]
+        {
+            margin-right: 0px;
+        }
+    }
+}

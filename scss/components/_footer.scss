@@ -1,21 +1,32 @@
 footer
 {
     width: 100%;
-    background-color: $color-secondary;
+    background-color: $color-primary;
     
     ul
     {
         margin: 0;
         padding: 0;
+        
+        li
+        {
+            list-style: none !important;
+        }
+    }
+    
+    h5
+    {
+        font-weight: $weight-medium !important;
     }
     
     a
     {
         color: $color-text-light;
+        transition: none;
 
         &:hover
         {
-            color: $color-text-weak;
+            color: $color-text-dark;
         }
     }
     
@@ -23,10 +34,11 @@ footer
     {
         font-size: 2rem;
         color: $color-text-light;
-    }
-    
-    .fa-facebook-f, .fa-instagram
-    {
-        margin-left: 30px;
+        transition: none;
+        
+        &:hover
+        {
+            color: $color-text-dark;
+        }
     }
 }
