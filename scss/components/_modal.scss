@@ -23,6 +23,13 @@
             position: absolute;
             top: 20px;
             right: 20px;
+            font-size: 20px;
+            color: $color-primary;
+            
+            &:hover
+            {
+                color: $color-primary-dark;
+            }
             
             i
             {

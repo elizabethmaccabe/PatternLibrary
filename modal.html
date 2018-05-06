@@ -3,6 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css">
         <link rel="stylesheet" href="css/main.css">
         <title>Get Started with Pattern Library</title>
     </head>
@@ -29,12 +30,112 @@
                 <div class="row section">
                     <div class="column">
                         <h1 class="heading">Modal</h1>
-                        <h4 class="tagline"></h4>
+                        <h4 class="tagline">Use modals for dialog boxes, confirmation boxes or other content that can be called on top of the web page.</h4>
                     </div>
                 </div>
-                <div class="row section">
-                    <div class="column">
-                        <h2 class="title">Examples</h2>
+                <div class="section">
+                    <div class="row">
+                        <div class="column column-title">
+                            <h2 class="title">Example</h2>
+                            <p>Click the button below to open an example of a modal.</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="column">
+                            <button class="btn open-modal">Open Modal</button>
+                            <div class="modal-container">
+                                <div class="modal">
+                                    <a href="#!" class="close-modal">Close</a>
+                                    <h2>Modal Header</h2>
+                                    <p class="justify">Lorem ipsum dolor sit amet, nostrum voluptua mediocritatem ne qui, eum id omittam ocurreret imperdiet. Quaeque numquam graecis ut, ne viderer maiorum delicatissimi. Has erat nobis contentiones ei, ex has vulputate intellegam. No dicit dolore est, possim laboramus in nec. Laudem soluta dolorem usu cu, usu postulant eloquentiam ne. In pro putant debitis scaevola, te sit nostro deserunt. Et etiam dicit posidonium vis, ex mundi feugiat mnesarchum pro, sint atqui repudiandae an. Mel noluisse assentior cu. Ei has ipsum temporibus, his invenire intellegat at, iriure deleniti legendos no mei.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="section">
+                    <div class="row">
+                        <div class="column column-title">
+                            <h2 class="title">Initialisation</h2>
+                            <p>Modals only work with the use of jQuery and JavaScript so make sure you have included the jQuery and PatternLibrary.js files before the closing <code class="code-inline">&lt;body&gt;</code> tag exactly as shown below.</p>
+<pre>
+<code class="code-block">&lt;body&gt;
+    &lt;!-- Your content --&gt;
+    
+    &lt;!-- Import jQuery first --&gt;
+    &lt;script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"&gt;&lt;/script&gt;
+    &lt;!-- Import PatternLibrary.js --&gt;
+    &lt;script type="text/javascript" src="js/PatternLibrary.js"&gt;&lt;/script&gt;
+&lt;/body&gt;
+</code>
+</pre>
+                        </div>
+                    </div>
+                </div>
+                <div class="section">
+                    <div class="row">
+                        <div class="column column-title">
+                            <h2 class="title">Usage</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="column">
+                            <h4 class="subtitle">Opening the Modal</h4>
+                            <p>You can use any sort of trigger such as a button or a link but you must ensure that you include the <code class="code-inline">.open-modal</code> class.</p>
+<pre>
+<code class="code-block">&lt;button class="btn open-modal"&gt;&lt;/button&gt;
+</code>
+</pre>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="column">
+                            <h4 class="subtitle">The Modal Element</h4>
+                            <p>The modal contains two <code class="code-inline">&lt;div&gt;</code> tags. One is the container for the modal which must include the <code class="code-inline">.modal-container</code> class. The second is the modal itself which must include the <code class="code-inline">.modal</code> class.</p>
+<pre>
+<code class="code-block">&lt;div class="modal-container"&gt;
+    &lt;div class="modal"&gt;
+        &lt;!-- Modal content --&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+</code>
+</pre>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="column">
+                            <h4 class="subtitle">Closing the Modal</h4>
+                            <p>Finally, a modal must include a trigger to close it. Again, this can be something like a button or a link. It could even be a <a href="index.html#fa-icons">Font Awesome icon</a> if you want. This trigger must include the <code class="code-inline">.close-modal</code> class to function.</p>
+<pre>
+<code class="code-block">&lt;div class="modal"&gt;
+    &lt;a href="#!" class="close-modal"&gt;&lt;/a&gt;
+&lt;/div&gt;
+</code>
+</pre>
+                        </div>
+                    </div>
+                </div>
+                <div class="section">
+                    <div class="row">
+                        <div class="column">
+                            <h2 class="title">Final Modal</h2>
+                            <p>This is the final modal after implementing the essential parts of the modal above and adding some placeholder content such as a header and a paragraph.</p>
+<pre>
+<code class="code-block">&lt;div class="row"&gt;
+    &lt;div class="column"&gt;
+        &lt;button class="btn open-modal"&gt;Open Modal&lt;/button&gt;
+        &lt;div class="modal-container"&gt;
+            &lt;div class="modal"&gt;
+                &lt;a href="#!" class="close-modal"&gt;Close&lt;/a&gt;
+                &lt;h2&gt;Modal Header&lt;/h2&gt;
+                &lt;p&gt;Lorem ipsum dolor sit amet, nostrum voluptua mediocritatem ne qui, eum id omittam ocurreret imperdiet. Quaeque numquam graecis ut, ne viderer maiorum delicatissimi. Has erat nobis contentiones ei, ex has vulputate intellegam. No dicit dolore est, possim laboramus in nec. Laudem soluta dolorem usu cu, usu postulant eloquentiam ne. In pro putant debitis scaevola, te sit nostro deserunt. Et etiam dicit posidonium vis, ex mundi feugiat mnesarchum pro, sint atqui repudiandae an. Mel noluisse assentior cu. Ei has ipsum temporibus, his invenire intellegat at, iriure deleniti legendos no mei.&lt;/p&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+</code>
+</pre>
+                        </div>
                     </div>
                 </div>
             </main>

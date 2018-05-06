@@ -88,6 +88,9 @@ input {
 .center, .center-align {
   text-align: center; }
 
+.justify {
+  text-align: justify; }
+
 .right-align {
   text-align: right; }
 
@@ -534,7 +537,11 @@ header .header-image {
     .modal-container .modal .close-modal {
       position: absolute;
       top: 20px;
-      right: 20px; }
+      right: 20px;
+      font-size: 20px;
+      color: #4DC3FF; }
+      .modal-container .modal .close-modal:hover {
+        color: #01a9ff; }
       .modal-container .modal .close-modal i {
         color: #4DC3FF; }
         .modal-container .modal .close-modal i:hover {
