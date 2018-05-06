@@ -6,14 +6,14 @@
         <link rel="stylesheet" href="css/main.css">
         <title>Get Started with Pattern Library</title>
     </head>
-    <body>
-        <div class="wrapper is-page">
+    <body id="is-dropdown-page">
+        <div class="documentation-wrapper">
             <header>
                 <div class="fixed-sidenav">
                     <div class="column">
                         <a class="logo center" href="index.html">PatternLibrary</a>
                         <a class="sidenav-item" href="index.html">Get Started</a>
-                        <a class="sidenav-item dropdown-btn" href="#!">Components</a>
+                        <a class="sidenav-item dropdown-btn active" href="#!">Components</a>
                         <div class="dropdown-container">
                             <a class="dropdown-item active-dropdown-item" href="buttons.html">Buttons</a>
                             <a class="dropdown-item" href="footer.html">Footer</a>
@@ -28,9 +28,181 @@
             <main>
                 <div class="row section">
                     <div class="column">
-                        <div class="introduction">
-                            <h1 class="title">Buttons</h1>
-                            <h4></h4>
+                        <h1 class="heading">Buttons</h1>
+                        <h4 class="tagline">The classic button in various colours, styles and more.</h4>
+                    </div>
+                </div>
+                <div class="section">
+                    <div class="row">
+                        <div class="column column-title">
+                            <h2 class="title">Defaults and Usage</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="column">
+                            <h4 class="subtitle">Default Style</h4>
+                            <p>The button is an essential design element designed to look like an interactive element.</p>
+                            <button class="btn">Button</button>
+<pre>
+<code class="code-block">&lt;button class="btn"&gt;Button&lt;/button&gt;
+</code>
+</pre>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="column">
+                            <h4 class="subtitle">Basic Usage</h4>
+                            <p>The <code class="code-inline">.button</code> class can be used on four different elements:</p>
+                            <ul>
+                                <li><code class="code-inline">&lt;a&gt;</code> Anchor tags</li>
+                                <li><code class="code-inline">&lt;button&gt;</code> Button tags</li>
+                                <li><code class="code-inline">&lt;input type="submit"&gt;</code> Submit inputs</li>
+                                <li><code class="code-inline">&lt;input type="reset"&gt;</code> Reset inputs</li>
+                            </ul>
+                            <a class="btn">Anchor</a>
+                            <button class="btn">Button</button>
+                            <input type="submit" class="btn" value="Submit">
+                            <input type="reset" class="btn" value="Reset">
+<pre>
+<code class="code-block">&lt;a class="btn"&gt;Anchor&lt;/a&gt;
+&lt;button class="btn"&gt;Button&lt;/button&gt;
+&lt;input type="submit" class="btn" value="Submit"&gt;
+&lt;input type="reset" class="btn" value="Reset"&gt;
+</code>
+</pre>
+                        </div>
+                    </div>
+                </div>
+                <div class="section">
+                    <div class="row">
+                        <div class="column column-title">
+                            <h2 class="title">Styles</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="column">
+                            <h4 class="subtitle">Filled</h4>
+                            <button class="btn filled">Filled</button>
+                            <button class="btn primary filled">Filled</button>
+                            <button class="btn secondary filled">Filled</button>
+                            <button class="btn success filled">Filled</button>
+                            <button class="btn error filled">Filled</button>
+<pre>
+<code class="code-block">&lt;button class="btn filled"&gt;Filled&lt;/button&gt;
+&lt;button class="btn primary filled"&gt;Filled&lt;/button&gt;
+&lt;button class="btn secondary filled"&gt;Filled&lt;/button&gt;
+&lt;button class="btn success filled"&gt;Filled&lt;/button&gt;
+&lt;button class="btn error filled"&gt;Filled&lt;/button&gt;
+</code>
+</pre>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="column">
+                            <h4 class="subtitle">Outlined</h4>
+                            <button class="btn outline">Outlined</button>
+                            <button class="btn primary outline">Outlined</button>
+                            <button class="btn secondary outline">Outlined</button>
+                            <button class="btn success outline">Outlined</button>
+                            <button class="btn error outline">Outlined</button>
+<pre>
+<code class="code-block">&lt;button class="btn outline"&gt;Outlined&lt;/button&gt;
+&lt;button class="btn primary outline"&gt;Outlined&lt;/button&gt;
+&lt;button class="btn secondary outline"&gt;Outlined&lt;/button&gt;
+&lt;button class="btn success outline"&gt;Outlined&lt;/button&gt;
+&lt;button class="btn error outline"&gt;Outlined&lt;/button&gt;
+</code>
+</pre>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="column">
+                            <h4 class="subtitle">Rounded Filled</h4>
+                            <button class="btn rounded filled">Rounded</button>
+                            <button class="btn rounded primary filled">Rounded</button>
+                            <button class="btn rounded secondary filled">Rounded</button>
+                            <button class="btn rounded success filled">Rounded</button>
+                            <button class="btn rounded error filled">Rounded</button>
+<pre>
+<code class="code-block">&lt;button class="btn rounded filled"&gt;Rounded&lt;/button&gt;
+&lt;button class="btn primary rounded filled"&gt;Rounded&lt;/button&gt;
+&lt;button class="btn secondary rounded filled"&gt;Rounded&lt;/button&gt;
+&lt;button class="btn success rounded filled"&gt;Rounded&lt;/button&gt;
+&lt;button class="btn error rounded filled"&gt;Rounded&lt;/button&gt;
+</code>
+</pre>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="column">
+                            <h4 class="subtitle">Rounded Outlined</h4>
+                            <button class="btn rounded outline">Rounded</button>
+                            <button class="btn rounded primary outline">Rounded</button>
+                            <button class="btn rounded secondary outline">Rounded</button>
+                            <button class="btn rounded success outline">Rounded</button>
+                            <button class="btn rounded error outline">Rounded</button>
+<pre>
+<code class="code-block">&lt;button class="btn rounded outline"&gt;Rounded&lt;/button&gt;
+&lt;button class="btn primary rounded outline"&gt;Rounded&lt;/button&gt;
+&lt;button class="btn secondary rounded outline"&gt;Rounded&lt;/button&gt;
+&lt;button class="btn success rounded outline"&gt;Rounded&lt;/button&gt;
+&lt;button class="btn error rounded outline"&gt;Rounded&lt;/button&gt;
+</code>
+</pre>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="column">
+                            <h4 class="subtitle">Full Width Filled</h4>
+                            <button class="btn block filled">Full Width Filled</button>
+                            <button class="btn primary block filled">Full Width Filled</button>
+                            <button class="btn secondary block filled">Full Width Filled</button>
+                            <button class="btn success block filled">Full Width Filled</button>
+                            <button class="btn error block filled">Full Width Filled</button>
+<pre>
+<code class="code-block">&lt;button class="btn block filled"&gt;Full Width Filled&lt;/button&gt;
+&lt;button class="btn primary block filled"&gt;Full Width Filled&lt;/button&gt;
+&lt;button class="btn secondary block filled"&gt;Full Width Filled&lt;/button&gt;
+&lt;button class="btn success block filled"&gt;Full Width Filled&lt;/button&gt;
+&lt;button class="btn error block filled"&gt;Full Width Filled&lt;/button&gt;
+</code>
+</pre>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="column">
+                            <h4 class="subtitle">Full Width Outlined</h4>
+                            <button class="btn block outline">Full Width Outlined</button>
+                            <button class="btn primary block outline">Full Width Outlined</button>
+                            <button class="btn secondary block outline">Full Width Outlined</button>
+                            <button class="btn success block outline">Full Width Outlined</button>
+                            <button class="btn error block outline">Full Width Outlined</button>
+<pre>
+<code class="code-block">&lt;button class="btn block outline"&gt;Full Width Outlined&lt;/button&gt;
+&lt;button class="btn primary block outline"&gt;Full Width Outlined&lt;/button&gt;
+&lt;button class="btn secondary block outline"&gt;Full Width Outlined&lt;/button&gt;
+&lt;button class="btn success block outline"&gt;Full Width Outlined&lt;/button&gt;
+&lt;button class="btn error block outline"&gt;Full Width Outlined&lt;/button&gt;
+</code>
+</pre>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="column">
+                            <h4 class="subtitle">Text</h4>
+                            <button class="btn text">Text</button>
+                            <button class="btn primary text">Text</button>
+                            <button class="btn secondary text">Text</button>
+                            <button class="btn success text">Text</button>
+                            <button class="btn error text">Text</button>
+<pre>
+<code class="code-block">&lt;button class="btn text"&gt;Text&lt;/button&gt;
+&lt;button class="btn primary text"&gt;Text&lt;/button&gt;
+&lt;button class="btn secondary text"&gt;Text&lt;/button&gt;
+&lt;button class="btn success text"&gt;Text&lt;/button&gt;
+&lt;button class="btn error text"&gt;Text&lt;/button&gt;
+</code>
+</pre>
                         </div>
                     </div>
                 </div>
