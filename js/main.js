@@ -11,12 +11,12 @@ $(document).ready(function()
 //jQuery to Open and Close Sidenav
 $(document).ready(function()
 {
-    $(".show-mobilenav").click(function()
+    $(".open-mobilenav").click(function()
     {
         $(".mobilenav-container").show();
     });
     
-    $(".hide-mobilenav").click(function()
+    $(".close-mobilenav").click(function()
     {
         $(".mobilenav-container").hide();
     });
