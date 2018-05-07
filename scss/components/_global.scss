@@ -10,11 +10,6 @@ html
     box-sizing: inherit;
 }
 
-*
-{
-    transition: all .3s ease-in-out;
-}
-
 body
 {
     padding: 0;
@@ -85,13 +80,12 @@ h6
 
 i
 {
-    transition: .3s ease-in-out;
     color: $color-secondary;
     font-size: 2rem;
     
     &:hover
     {
-        color: $color-text-weak;
+        color: $color-text-dark;
     }
 }
 

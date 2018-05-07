@@ -7,9 +7,6 @@ html {
 *:after {
   box-sizing: inherit; }
 
-* {
-  transition: all .3s ease-in-out; }
-
 body {
   padding: 0;
   margin: 0;
@@ -56,11 +53,10 @@ h6 {
   font-size: 1.1rem; }
 
 i {
-  transition: .3s ease-in-out;
   color: #FFA31A;
   font-size: 2rem; }
   i:hover {
-    color: #D5D5D5; }
+    color: #666666; }
 
 ul {
   list-style-type: none; }
@@ -140,13 +136,12 @@ nav {
     color: #FFFFFF; }
     nav a:hover {
       color: #FFFFFF; }
-  nav .logo {
+  nav .nav-logo {
     position: absolute;
     display: inline-block;
     padding: 0 0 0 20px;
-    font-size: 2rem;
-    transition: none; }
-    nav .logo:hover {
+    font-size: 2rem; }
+    nav .nav-logo:hover {
       color: #666666; }
   nav .open-menu {
     float: right;
@@ -155,52 +150,53 @@ nav {
     nav .open-menu i {
       color: #FFFFFF; }
       nav .open-menu i:hover {
-        color: #D5D5D5; }
-  nav .main-nav {
+        color: #666666; }
+  nav .nav-wrapper {
     position: relative;
     height: 100%; }
-  nav ul {
+  nav .nav-list {
     margin: 0; }
-    nav ul li {
+    nav .nav-list li {
       float: left;
-      padding: 0; }
-      nav ul li:hover {
+      padding: 0;
+      transition: .3s ease-in-out; }
+      nav .nav-list li:hover {
         background-color: #01a9ff; }
-      nav ul li.active {
+      nav .nav-list li.active {
         background-color: #01a9ff; }
-        nav ul li.active a {
+        nav .nav-list li.active a {
           color: #FFFFFF; }
-        nav ul li.active:hover {
+        nav .nav-list li.active:hover {
           background-color: #0098e6; }
-    nav ul a {
+    nav .nav-list a {
       font-size: 1rem;
       display: block;
       padding: 0 20px;
       cursor: pointer; }
 
 @media screen and (min-width: 320px) {
-  .main-nav ul {
+  .nav-wrapper ul {
     display: none; }
 
-  .sidenav-container {
+  .mobilenav-container {
     display: none; } }
 @media screen and (min-width: 640px) {
-  .main-nav ul {
+  .nav-wrapper ul {
     display: inline-block; }
 
   .open-menu {
     display: none; }
 
-  .sidenav-container {
+  .mobilenav-container {
     display: none; } }
 @media screen and (min-width: 960px) {
-  .main-nav ul {
+  .nav-wrapper ul {
     display: inline-block; }
 
   .open-menu {
     display: none; }
 
-  .sidenav-container {
+  .mobilenav-container {
     display: none; } }
 .mobilenav-container {
   position: absolute;
@@ -208,15 +204,18 @@ nav {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: #FFFFFF; }
+  background-color: #4DC3FF;
+  z-index: 1; }
+  .mobilenav-container a {
+    color: #FFFFFF; }
   .mobilenav-container .close-menu {
     position: absolute;
     top: 20px;
     right: 20px; }
     .mobilenav-container .close-menu i {
-      color: #4DC3FF; }
+      color: #FFFFFF; }
       .mobilenav-container .close-menu i:hover {
-        color: #01a9ff; }
+        color: #666666; }
   .mobilenav-container ul {
     margin-top: 55px;
     font-size: 1.5rem;
@@ -229,7 +228,7 @@ nav {
       .mobilenav-container ul li:hover {
         background-color: #F5F5F5; }
         .mobilenav-container ul li:hover a {
-          color: #4DC3FF; }
+          color: #666666; }
 
 .btn {
   border: none;
@@ -495,8 +494,7 @@ footer {
   footer h5 {
     font-weight: 500 !important; }
   footer a {
-    color: #FFFFFF;
-    transition: none; }
+    color: #FFFFFF; }
     footer a:hover {
       color: #666666; }
   footer i {
@@ -653,6 +651,8 @@ header .header-image {
   .documentation-wrapper main .explain-list li {
     list-style: circle;
     line-height: 30px; }
+  .documentation-wrapper main .explain {
+    font-size: 25px; }
   .documentation-wrapper main input[type="submit"], .documentation-wrapper main input[type="reset"] {
     margin-right: 0px; }
   .documentation-wrapper main footer {
