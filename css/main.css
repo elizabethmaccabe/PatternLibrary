@@ -638,7 +638,9 @@ header .header-image {
     margin-top: 0px; }
   .documentation-wrapper main pre {
     overflow: auto;
-    background-color: #F5F5F5; }
+    border: 1px solid #D5D5D5;
+    border-radius: 10px;
+    background-color: #FFFFFF; }
   .documentation-wrapper main .code-block {
     display: inline-block;
     padding: 20px;
@@ -657,5 +659,13 @@ header .header-image {
     margin-right: 0px; }
   .documentation-wrapper main footer {
     margin-bottom: 30px; }
+  .documentation-wrapper main .comment {
+    color: #9E9E9E; }
+  .documentation-wrapper main .tag {
+    color: #1A8CFF; }
+  .documentation-wrapper main .attrib {
+    color: #FF3399; }
+  .documentation-wrapper main .value {
+    color: #00B359; }
 
 /*# sourceMappingURL=main.css.map */

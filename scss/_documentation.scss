@@ -171,7 +171,9 @@
         pre
         {
             overflow: auto;
-            background-color: $color-lightest-grey;
+            border: 1px solid $color-border;
+            border-radius: 10px;
+            background-color: $color-background;
         }
         
         .code-block
@@ -215,7 +217,25 @@
         }
         
         // Code Syntax //
+        .comment
+        {
+            color: $color-grey;
+        }
         
+        .tag
+        {
+            color: #1A8CFF;
+        }
+        
+        .attrib
+        {
+            color: #FF3399;
+        }
+        
+        .value
+        {
+            color: #00B359;
+        }
         
         // [end] //
     }
