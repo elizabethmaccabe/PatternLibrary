@@ -59,7 +59,7 @@
                     <div class="row">
                         <div class="column column-title">
                             <h2 class="title">Usage</h2>
-                            <p>Note: You must ensure your navbar is contained with the <code class="code-inline">&lt;header&gt;</code> tag to ensure the <a href="footer.html#footer">Sticky Footer</a> works as it should.</p>
+                            <p>Note: You must ensure your navbar is contained with the <code class="code-inline"><span class="tag">&lt;header&gt;</span></code> tag to ensure the <a href="footer.html#footer">Sticky Footer</a> works as it should.</p>
                         </div>
                     </div>
                     <div class="row">
@@ -67,27 +67,27 @@
                             <h4 class="subtitle">Structure</h4>
                             <p>The navbar structure requirements are outlined below:</p>
                             <ul class="explain-list">
-                                <li>A <code class="code-inline">&lt;nav&gt;</code> tag to be the main wrapper of the navbar.</li>
-                                <li>A div with the class <code class="code-inline">.nav-wrapper</code> to be the wrapper of all navbar elements.</li>
-                                <li>An <code class="code-inline">&lt;a&gt;</code> tag with the <code class="code-inline">.nav-logo</code> class for the brand logo.</li>
-                                <li>A <code class="code-inline">&lt;ul&gt;</code> tag containing the <code class="code-inline">.nav-list</code> class.</li>
-                                <li><code class="code-inline">&lt;li&gt;</code> tags with <code class="code-inline">&lt;a&gt;</code> tags inside to contain each nav link.</li>
-                                <li>Add the <code class="code-inline">.active</code> class to the <code class="code-inline">&lt;li&gt;</code> link to show the current page.</li>
+                                <li>A <code class="code-inline"><span class="tag">&lt;nav&gt;</span></code> tag to be the main wrapper of the navbar.</li>
+                                <li>A div with the class <code class="code-inline"><span class="value">.nav-wrapper</span></code> to be the wrapper of all navbar elements.</li>
+                                <li>An <code class="code-inline"><span class="tag">&lt;a&gt;</span></code> tag with the <code class="code-inline"><span class="value">.nav-logo</span></code> class for the brand logo.</li>
+                                <li>A <code class="code-inline"><span class="tag">&lt;ul&gt;</span></code> tag containing the <code class="code-inline"><span class="value">.nav-list</span></code> class.</li>
+                                <li><code class="code-inline"><span class="tag">&lt;li&gt;</span></code> tags with <code class="code-inline"><span class="tag">&lt;a&gt;</span></code> tags inside to contain each nav link.</li>
+                                <li>Add the <code class="code-inline"><span class="value">.active</span></code> class to the <code class="code-inline"><span class="tag">&lt;li&gt;</span></code> link to show the current page.</li>
                             </ul>
                             <p>If we put all this together, it should look like this:</p>
 <pre>
-<code class="code-block">&lt;nav&gt;
-    &lt;div class="nav-wrapper"&gt;
-        &lt;a href="#!" class="nav-logo"&gt;&lt;/a&gt;
-        &lt;ul class="nav-list"&gt;
-            &lt;!-- You can have many links but we recommend no more than 5 --&gt;
-            &lt;li class="active"&gt;&lt;a href="#!"&gt;LINK&lt;/a&gt;&lt;/li&gt;
-            &lt;li&gt;&lt;a href="#!"&gt;LINK&lt;/a&gt;&lt;/li&gt;
-            &lt;li&gt;&lt;a href="#!"&gt;LINK&lt;/a&gt;&lt;/li&gt;
-            &lt;li&gt;&lt;a href="#!"&gt;LINK&lt;/a&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-    &lt;/div&gt;
-&lt;/nav&gt;
+<code class="code-block"><span class="tag">&lt;nav&gt;</span>
+    <span class="tag">&lt;div </span><span class="attrib">class=</span><span class="value">"nav-wrapper"</span><span class="tag">&gt;</span>
+        <span class="tag">&lt;a </span><span class="attrib">href=</span><span class="value">"#!" </span><span class="attrib">class=</span><span class="value">"nav-logo"</span><span class="tag">&gt;&lt;/a&gt;</span>
+        <span class="tag">&lt;ul </span><span class="attrib">class=</span><span class="value">"nav-list"</span><span class="tag">&gt;</span>
+            <span class="comment">&lt;!-- You can have many links but we recommend no more than 5 --&gt;</span>
+            <span class="tag">&lt;li </span><span class="attrib">class=</span><span class="value">"active"</span><span class="tag">&gt;&lt;a </span><span class="attrib">href=</span><span class="value">"#!"</span><span class="tag">&gt;</span>LINK<span class="tag">&lt;/a&gt;&lt;/li&gt;</span>
+            <span class="tag">&lt;li&gt;&lt;a </span><span class="attrib">href=</span><span class="value">"#!"</span><span class="tag">&gt;</span>LINK<span class="tag">&lt;/a&gt;&lt;/li&gt;</span>
+            <span class="tag">&lt;li&gt;&lt;a </span><span class="attrib">href=</span><span class="value">"#!"</span><span class="tag">&gt;</span>LINK<span class="tag">&lt;/a&gt;&lt;/li&gt;</span>
+            <span class="tag">&lt;li&gt;&lt;a </span><span class="attrib">href=</span><span class="value">"#!"</span><span class="tag">&gt;</span>LINK<span class="tag">&lt;/a&gt;&lt;/li&gt;</span>
+        <span class="tag">&lt;/ul&gt;</span>
+    <span class="tag">&lt;/div&gt;</span>
+<span class="tag">&lt;/nav&gt;</span>
 </code>
 </pre>
                         </div>
@@ -104,9 +104,9 @@
                     <div class="row">
                         <div class="column">
                             <h4 class="subtitle">Opening the Mobile Nav</h4>
-                            <p>You will need a trigger to open the mobile sidenav. Include this line in your code above the <code class="code-inline">.nav-list</code> line of your horizontal navbar.</p>
+                            <p>You will need a trigger to open the mobile sidenav. Include this line in your code above the <code class="code-inline"><span class="value">.nav-list</span></code> line of your horizontal navbar.</p>
 <pre>
-<code class="code-block">&lt;a href="#!" class="open-mobilenav"&gt;&lt;i class="fas fa-bars"&gt;&lt;/i&gt;&lt;/a&gt;
+<code class="code-block"><span class="tag">&lt;a </span><span class="attrib">href=</span><span class="value">"#!" </span><span class="attrib">class=</span><span class="value">"open-mobilenav"</span><span class="tag">&gt;&lt;i </span><span class="attrib">class=</span><span class="value">"fas fa-bars"</span><span class="tag">&gt;&lt;/i&gt;&lt;/a&gt;</span>
 </code>
 </pre>
                         </div>
@@ -116,14 +116,14 @@
                             <h4 class="subtitle">The Mobile Nav Content</h4>
                             <p>Next you will need a sidenav with content to be displayed on mobile.</p>
 <pre>
-<code class="code-block">&lt;div class="mobilenav-container"&gt;
-    &lt;ul class="mobilenav nav-list"&gt;
-        &lt;li&gt;&lt;a href="#!"&gt;LINK&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href="#!"&gt;LINK&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href="#!"&gt;LINK&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href="#!"&gt;LINK&lt;/a&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-&lt;/div&gt;
+<code class="code-block"><span class="tag">&lt;div </span><span class="attrib">class=</span><span class="value">"mobilenav-container"</span><span class="tag">&gt;</span>
+    <span class="tag">&lt;ul </span><span class="attrib">class=</span><span class="value">"mobilenav nav-list"</span><span class="tag">&gt;</span>
+        <span class="tag">&lt;li </span><span class="attrib">class=</span><span class="value">"active"</span><span class="tag">&gt;&lt;a </span><span class="attrib">href=</span><span class="value">"#!"</span><span class="tag">&gt;</span>LINK<span class="tag">&lt;/a&gt;&lt;/li&gt;</span>
+        <span class="tag">&lt;li&gt;&lt;a </span><span class="attrib">href=</span><span class="value">"#!"</span><span class="tag">&gt;</span>LINK<span class="tag">&lt;/a&gt;&lt;/li&gt;</span>
+        <span class="tag">&lt;li&gt;&lt;a </span><span class="attrib">href=</span><span class="value">"#!"</span><span class="tag">&gt;</span>LINK<span class="tag">&lt;/a&gt;&lt;/li&gt;</span>
+        <span class="tag">&lt;li&gt;&lt;a </span><span class="attrib">href=</span><span class="value">"#!"</span><span class="tag">&gt;</span>LINK<span class="tag">&lt;/a&gt;&lt;/li&gt;</span>
+    <span class="tag">&lt;/ul&gt;</span>
+<span class="tag">&lt;/div&gt;</span>
 </code>
 </pre>
                         </div>
@@ -131,9 +131,9 @@
                     <div class="row">
                         <div class="column">
                             <h4 class="subtitle">Closing the Mobile Nav</h4>
-                            <p>Much like how you had an trigger to open the mobile sidenav, you will also need a trigger to close the mobile sidenav. Include this line in your code above the <code class="code-inline">.nav-list</code></p>
+                            <p>Much like how you had an trigger to open the mobile sidenav, you will also need a trigger to close the mobile sidenav. Include this line in your code above the <code class="code-inline"><span class="value">.nav-list</span></code></p>
 <pre>
-<code class="code-block">&lt;a href="#!" class="close-mobilenav"&gt;&lt;i class="fas fa-times"&gt;&lt;/i&gt;&lt;/a&gt;
+<code class="code-block"><span class="tag">&lt;a </span><span class="attrib">href=</span><span class="value">"#!" </span><span class="attrib">class=</span><span class="value">"close-mobilenav"</span><span class="tag">&gt;&lt;i </span><span class="attrib">class=</span><span class="value">"fas fa-times"</span><span class="tag">&gt;&lt;/i&gt;&lt;/a&gt;</span>
 </code>
 </pre>
                         </div>
@@ -143,29 +143,29 @@
                     <div class="row">
                         <div class="column column-title">
                             <h2 class="title">Final Navigation with Mobile Sidenav</h2>
-                            <p>To make the links align on the right instead of the left, add the class <code class="code-inline">.right</code> to the <code class="code-inline">&lt;ul&gt;</code> before the <code class="code-inline">.nav-list</code> class.</p>
+                            <p>To make the links align on the right instead of the left, add the class <code class="code-inline"><span class="value">.right</span></code> to the <code class="code-inline"><span class="tag">&lt;ul&gt;</span></code> before the <code class="code-inline"><span class="value">.nav-list</span></code> class.</p>
 <pre>
-<code class="code-block">&lt;nav&gt;
-    &lt;div class="nav-wrapper"&gt;
-        &lt;a href="#!" class="nav-logo"&gt;Logo&lt;/a&gt;
-        &lt;a href="#!" class="open-mobilenav"&gt;&lt;i class="fas fa-bars"&gt;&lt;/i&gt;&lt;/a&gt;
-        &lt;ul class="right nav-list"&gt;
-            &lt;li class="active"&gt;&lt;a href="#!"&gt;LINK&lt;/a&gt;&lt;/li&gt;
-            &lt;li&gt;&lt;a href="#!"&gt;LINK&lt;/a&gt;&lt;/li&gt;
-            &lt;li&gt;&lt;a href="#!"&gt;LINK&lt;/a&gt;&lt;/li&gt;
-            &lt;li&gt;&lt;a href="#!"&gt;LINK&lt;/a&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-    &lt;/div&gt;
-&lt;/nav&gt;
-&lt;div class="mobilenav-container"&gt;
-&lt;a href="#!" class="close-mobilenav"&gt;&lt;i class="fas fa-times"&gt;&lt;/i&gt;&lt;/a&gt;
-    &lt;ul class="mobilenav nav-list"&gt;
-        &lt;li&gt;&lt;a href="#!"&gt;LINK&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href="#!"&gt;LINK&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href="#!"&gt;LINK&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href="#!"&gt;LINK&lt;/a&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-&lt;/div&gt;
+<code class="code-block"><span class="tag">&lt;nav&gt;</span>
+    <span class="tag">&lt;div </span><span class="attrib">class=</span><span class="value">"nav-wrapper"</span><span class="tag">&gt;</span>
+        <span class="tag">&lt;a </span><span class="attrib">href="#!" </span><span class="value">class="nav-logo"</span><span class="tag">&gt;</span>Logo<span class="tag">&lt;/a&gt;</span>
+        <span class="tag">&lt;a </span><span class="attrib">href="#!" </span><span class="value">class="open-mobilenav"</span><span class="tag">&gt;&lt;i </span><span class="attrib">class=</span><span class="value">"fas fa-bars"</span><span class="tag">&gt;&lt;/i&gt;&lt;/a&gt;</span>
+        <span class="tag">&lt;ul </span><span class="attrib">class=</span><span class="value">"right nav-list"</span><span class="tag">&gt;</span>
+            <span class="tag">&lt;li </span><span class="attrib">class=</span><span class="value">"active"</span><span class="tag">&gt;&lt;a </span><span class="attrib">href=</span><span class="value">"#!"</span><span class="tag">&gt;</span>LINK<span class="tag">&lt;/a&gt;&lt;/li&gt;</span>
+            <span class="tag">&lt;li&gt;&lt;a </span><span class="attrib">href=</span><span class="value">"#!"</span><span class="tag">&gt;</span>LINK<span class="tag">&lt;/a&gt;&lt;/li&gt;</span>
+            <span class="tag">&lt;li&gt;&lt;a </span><span class="attrib">href=</span><span class="value">"#!"</span><span class="tag">&gt;</span>LINK<span class="tag">&lt;/a&gt;&lt;/li&gt;</span>
+            <span class="tag">&lt;li&gt;&lt;a </span><span class="attrib">href=</span><span class="value">"#!"</span><span class="tag">&gt;</span>LINK<span class="tag">&lt;/a&gt;&lt;/li&gt;</span>
+        <span class="tag">&lt;/ul&gt;</span>
+    <span class="tag">&lt;/div&gt;</span>
+<span class="tag">&lt;/nav&gt;</span>
+<span class="tag">&lt;div </span><span class="attrib">class=</span><span class="value">"mobilenav-container"</span><span class="tag">&gt;</span>
+<span class="tag">&lt;a </span><span class="attrib">href=</span><span class="value">"#!" </span><span class="attrib">class=</span><span class="value">"close-mobilenav"</span><span class="tag">&gt;&lt;i </span><span class="attrib">class=</span><span class="value">"fas fa-times"</span><span class="tag">&gt;&lt;/i&gt;&lt;/a&gt;</span>
+    <span class="tag">&lt;ul </span><span class="attrib">class=</span><span class="value">"mobilenav nav-list"</span><span class="tag">&gt;</span>
+        <span class="tag">&lt;li&gt;&lt;a </span><span class="attrib">href=</span><span class="value">"#!"</span><span class="tag">&gt;</span>LINK<span class="tag">&lt;/a&gt;&lt;/li&gt;</span>
+        <span class="tag">&lt;li&gt;&lt;a </span><span class="attrib">href=</span><span class="value">"#!"</span><span class="tag">&gt;</span>LINK<span class="tag">&lt;/a&gt;&lt;/li&gt;</span>
+        <span class="tag">&lt;li&gt;&lt;a </span><span class="attrib">href=</span><span class="value">"#!"</span><span class="tag">&gt;</span>LINK<span class="tag">&lt;/a&gt;&lt;/li&gt;</span>
+        <span class="tag">&lt;li&gt;&lt;a </span><span class="attrib">href=</span><span class="value">"#!"</span><span class="tag">&gt;</span>LINK<span class="tag">&lt;/a&gt;&lt;/li&gt;</span>
+    <span class="tag">&lt;/ul&gt;</span>
+<span class="tag">&lt;/div&gt;</span>
 </code>
 </pre>
                         </div>
