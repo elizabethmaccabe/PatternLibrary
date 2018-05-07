@@ -140,6 +140,14 @@ nav {
     color: #FFFFFF; }
     nav a:hover {
       color: #FFFFFF; }
+  nav .logo {
+    position: absolute;
+    display: inline-block;
+    padding: 0 0 0 20px;
+    font-size: 2rem;
+    transition: none; }
+    nav .logo:hover {
+      color: #666666; }
   nav .open-menu {
     float: right;
     margin-top: 5px;
@@ -151,13 +159,6 @@ nav {
   nav .main-nav {
     position: relative;
     height: 100%; }
-  nav .logo {
-    position: absolute;
-    display: inline-block;
-    padding: 0 0 0 20px;
-    font-size: 2rem; }
-    nav .logo:hover {
-      color: #D5D5D5; }
   nav ul {
     margin: 0; }
     nav ul li {
@@ -491,8 +492,6 @@ footer {
   footer ul {
     margin: 0;
     padding: 0; }
-    footer ul li {
-      list-style: none !important; }
   footer h5 {
     font-weight: 500 !important; }
   footer a {
@@ -651,7 +650,7 @@ header .header-image {
   .documentation-wrapper main .code-inline {
     padding: 3px 5px;
     background-color: #F5F5F5; }
-  .documentation-wrapper main li {
+  .documentation-wrapper main .explain-list li {
     list-style: circle;
     line-height: 30px; }
   .documentation-wrapper main input[type="submit"], .documentation-wrapper main input[type="reset"] {

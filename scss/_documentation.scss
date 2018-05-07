@@ -190,10 +190,13 @@
         }
         // [end] //
         
-        li
-        {
-            list-style: circle;
-            line-height: 30px;
+        .explain-list
+        {   
+            li
+            {
+                list-style: circle;
+                line-height: 30px;
+            }
         }
         
         input[type="submit"], input[type="reset"]
