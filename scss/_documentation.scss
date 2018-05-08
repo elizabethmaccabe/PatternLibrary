@@ -192,30 +192,6 @@
         }
         // [end] //
         
-        .explain-list
-        {   
-            li
-            {
-                list-style: circle;
-                line-height: 30px;
-            }
-        }
-        
-        .explain
-        {
-            font-size: 25px;
-        }
-        
-        input[type="submit"], input[type="reset"]
-        {
-            margin-right: 0px;
-        }
-        
-        footer
-        {
-            margin-bottom: 30px;
-        }
-        
         // Code Syntax //
         .comment
         {
@@ -238,5 +214,34 @@
         }
         
         // [end] //
+        
+        .download
+        {
+            margin-top: 20px !important;
+        }
+        
+        .explain-list
+        {   
+            li
+            {
+                list-style: circle;
+                line-height: 30px;
+            }
+        }
+        
+        .explain
+        {
+            font-size: 25px;
+        }
+        
+        input[type="submit"], input[type="reset"]
+        {
+            margin-right: 0px;
+        }
+        
+        footer
+        {
+            margin-bottom: 30px;
+        }        
     }
 }

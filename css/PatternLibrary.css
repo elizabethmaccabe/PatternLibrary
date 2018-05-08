@@ -650,6 +650,16 @@ header .header-image {
   .documentation-wrapper main .code-inline {
     padding: 3px 5px;
     background-color: #F5F5F5; }
+  .documentation-wrapper main .comment {
+    color: #9E9E9E; }
+  .documentation-wrapper main .tag {
+    color: #1A8CFF; }
+  .documentation-wrapper main .attrib {
+    color: #FF3399; }
+  .documentation-wrapper main .value {
+    color: #00B359; }
+  .documentation-wrapper main .download {
+    margin-top: 20px !important; }
   .documentation-wrapper main .explain-list li {
     list-style: circle;
     line-height: 30px; }
@@ -659,13 +669,5 @@ header .header-image {
     margin-right: 0px; }
   .documentation-wrapper main footer {
     margin-bottom: 30px; }
-  .documentation-wrapper main .comment {
-    color: #9E9E9E; }
-  .documentation-wrapper main .tag {
-    color: #1A8CFF; }
-  .documentation-wrapper main .attrib {
-    color: #FF3399; }
-  .documentation-wrapper main .value {
-    color: #00B359; }
 
 /*# sourceMappingURL=PatternLibrary.css.map */
