@@ -1,10 +1,10 @@
 # PatternLibrary
 
-<a href="https://elizabethmaccabe.github.io/PatternLibrary">Download PatternLibrary</a>
+### <a href="https://elizabethmaccabe.github.io/PatternLibrary">Download PatternLibrary</a>
 
 PatternLibrary is a responsive front-end pattern library consisting of many website elements.
 
-##Current Elements
+## Current Elements
 
 The elements that PatternLibrary currently contains are:
 
@@ -16,7 +16,8 @@ The elements that PatternLibrary currently contains are:
 * A button triggered modal.
 * Six different button types.
 
-##Download
+## Download
+
 PatternLibrary is available in regular CSS or in SCSS depending on your level of experience.
 
 Click <a href="https://elizabethmaccabe.github.io/PatternLibrary">here</a> to visit our website and become aquainted with PatternLibrary.
