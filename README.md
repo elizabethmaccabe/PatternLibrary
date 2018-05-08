@@ -1,6 +1,6 @@
 # PatternLibrary
 
-###<a href="https://elizabethmaccabe.github.io/PatternLibrary">Download PatternLibrary</a>
+<a href="https://elizabethmaccabe.github.io/PatternLibrary">Download PatternLibrary</a>
 
 PatternLibrary is a responsive front-end pattern library consisting of many website elements.
 
